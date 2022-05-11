@@ -14,3 +14,168 @@
  *= require_self
  */
 @import "bootstrap";
+
+body{
+    background-color: #fafafa;
+    font-size: 14px;
+    color: #262626;
+
+}
+.navbar{
+    background-color: #fff;
+    border-bottom: rgba(0,0,0,.0975);
+
+}
+.allicons{
+    background-image: image-url('allicons-removebg-preview.png');
+    background-size: 407px 397px;
+    background-repeat: no-repeat;
+
+}
+.navbar-brand{
+    background-position: -176px 0;
+    height: 45px;
+    width: 176px;
+}
+
+.hide-text{
+    display: block;
+    text-indent: 190%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.explore-icon{
+    background-position: -225px -360px;
+    height: 24px;
+    width: 24px;
+   
+}
+.notification-icon{
+    background-position: -125px -361px;
+    height: 24px;
+    width: 24px;
+    
+}
+.profile-icon{
+    background-position: -309px -196px;
+    height: 24px;
+    width: 24px;
+    
+}
+.nav-item:not(:first-child)
+{
+    margin-left: 30px;
+}
+
+/*landing */
+.landing-left .dummy-phone
+{
+    background-image: image-url('screenshot.png');
+    background-repeat: no-repeat;
+    background-position: right 0;
+    background-size: 454 618;
+    position: relative;
+    height: 618px;
+    margin-left: -35px;
+    margin-right: -15px;
+}
+.screen-shot
+{
+    position: absolute;
+    top: 26px;
+    right: 55px;
+}
+
+
+.landing-right 
+{
+    .form-login{
+        width: 350px;
+        form{ 
+            padding: 0 40px; 
+            .btn-outline-primary{
+                width: 100%;
+                line-height: 14px;
+                font-size: 14px;
+                font-weight: 600;
+            }
+            input{
+                border: 1px solid #efefef;
+
+            }
+            .form-check-label{
+                padding: 0px;
+                font-size: 15px;
+                color: #262626;
+            }
+
+        }
+        
+    }
+    
+   
+}
+
+/*em tag */
+
+em{
+    font-size: 12px;
+    color: gray;
+
+}
+.forgot-password{
+    font-size: 25px;
+    color: gray;
+}
+/*carouse*/
+.carousel-inner{
+    width: 238px;
+    border-radius: 30px;
+}
+
+.carousel-fade{
+    .carousel-item.active{
+        opacity: 1;
+        display: block;
+    }
+}
+.carousel-item
+{
+    transition: opacity 0.6s ease-in-out;
+    opacity: 0;
+    position: relative;
+    display: block;
+}
+.carousel-item:not(.active)
+{
+    position: absolute;
+    top: 0px;
+}
+
+/*form*/
+.box{
+    background-color: #fff;
+    border-radius: 1px;
+    border: 1px solid #e6e6e6;
+    padding: 10px 0;
+    margin: 0 0 10px;
+}
+.brand-name-img{
+    background-position: -2px -8px;
+    height: 54px;
+    width: 175px;
+    margin-left: 70px;
+}
+.btn-primary-color
+{
+    background-color: #24a0ed;
+    color: white;
+}
+
+/*footer*/
+footer .nav-item
+{
+    color: #003569;
+    font-size: 12;
+    font-weight: bold;
+}
